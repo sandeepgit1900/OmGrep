@@ -1,0 +1,77 @@
+.MISname{color:#fff;font: lighter italic 20px "Helvetica Neue",Helvetica,Arial,sans-serif}
+.MISname strong{font-style:normal}
+.MIS-v-seperate{
+	height:6px;
+	width:2px;
+	margin:0px 10px 0px 10px;
+	border-left:1px solid #999;
+	display:inline;
+	position: relative;
+    top: 2px;
+}
+.MISlisting{list-style:none;width:100%;text-align:right;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;margin-left:0}
+.MISlisting.colored{margin:0;text-align:left}
+.MISbg{background:#F35958;padding:20px;color:#fff}
+.MISbg h5{color:#fff ;margin:0;font-size:18px}
+.MISlisting li{display:inline-block;margin:7px 0 0 0;padding-left:0;width:25%;text-align:center}
+.MISlisting.colored li{width:28%;margin:0 2%;text-align:left;}
+.MISlisting li strong{display:block; border-right: 1px solid #cacaca; padding:0 15%}
+.MISlisting li:last-child{margin-right:0}
+.MISlisting li:last-child strong{border:none}
+.MISlisting strong,.MISbg .MISlisting li{font: lighter 24px/30px "Helvetica Neue",Helvetica,Arial,sans-serif;color:#515050}
+.MISlisting strong span{font-size:18px; color:#999; font-weight:lighter}
+.MISlisting small{display:block;text-align:center;margin:0 10px}
+.MISlisting.colored small{margin:0 20% 0 0;text-align:left;padding:6px 0; white-space:nowrap}
+.MIScal{color:#515050;padding-left:10px;border-left: 1px solid #f3f3f3;margin-right:20px}
+.MIScal strong span{font-weight:normal}
+.MIScal a{color:inherit}
+.MIScal .nav{margin-bottom:0}
+.MIScal .dropdown-menu{top:25px}
+.MISreload{vertical-align:bottom}
+.MIScolor1 small{border-bottom:5px solid #736086}
+.MIScolor1 strong,.MIScolor1 strong span{color:#736086}
+.MIScolor2 small{border-bottom:5px solid #8bac81}
+.MIScolor2 strong,.MIScolor2 strong span{color:#8bac81}
+.MIScolor3 small{border-bottom:5px solid #249599}
+.MIScolor3 strong,.MIScolor3 strong span{color:#249599}
+.MIScolor4 small{border-bottom:5px solid #96a8c0}
+.MIScolor4 strong,.MIScolor4 strong span{color:#96a8c0}
+.MISlisting.colored strong{padding:0}
+.grid.red .grid-body{padding-top:0}
+.grid.red .table{margin-bottom:0}
+.grid.red .table thead th{padding:10px 12px}
+.grid.red .table td{border-color:rgba(255, 255, 255, 0.35);color:#fff;padding:4px 12px}
+.grid.red .table-hover tbody tr:hover > td, .grid.red .table-hover tbody tr:hover > th{background-color: transparent}
+.grid.red .icon-external-link{color:#fff}
+/*.MIScal .open > .dropdown-menu{width:469px}*/
+.loginCont{margin:0}
+.loginCont .login{margin:0 auto; width:25%}
+.login .dashName{margin:17px 24%;color:#333843}
+
+.MIScal span{display:inline-block;vertical-align:top}
+.MIScal .date{width:105px;margin:0}
+.MIScal .add-on{display:none}
+.MIScal .date input{font-weight:bold;color:#888}
+.MIScal small{font-size:12px;vertical-align:top;display:inline-block;color:#7B7D82;margin-top:7px}
+.MIScal .gobtn{padding:3px 11px}
+
+.appId{margin:0 auto;width:42%}
+.appId .add-on{background:#D1DADE;color:#fff;border:1px solid #E5E9EC;padding: 4px 8px;}
+
+@media only screen and (max-width:1024px){
+    .page-content .admin-bar{left:0}
+    .page-content .admin-bar .admin-bar-inner{margin-right:0}
+}
+@media only screen and (max-width:979px) {
+	.MISlisting li strong{padding:0 10%}
+	.MISlisting.colored li{width:45%;margin-bottom:15px}
+	.MISlisting.colored li:nth-child(2n){margin-right:0;float:right}
+	.MISlisting.colored li:nth-child(2n) strong{border:none}
+}
+@media only screen and (max-width:767px) {
+	.MISlisting{text-align:left}	
+	.MIScal{float:left;padding-left:0;border:none}
+        .dataTables_wrapper{overflow-x:scroll}
+        .loginCont .login{width:100%}
+        .appId{width:100%}
+}

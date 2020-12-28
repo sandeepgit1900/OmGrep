@@ -1,0 +1,10 @@
+Loading from cache: https://raw.githubusercontent.com/RetireJS/retire.js/master/repository/jsrepository.json
+Loading from cache: https://raw.githubusercontent.com/RetireJS/retire.js/master/repository/npmrepository.json
+/apps/manager/current/web/demo/demo/js/jquery-1.js
+ ↳ jquery 1.8.3 has known vulnerabilities: severity: medium; bug: 11290, summary: Selector interpreted as HTML; http://bugs.jquery.com/ticket/11290 http://research.insecurelabs.org/jquery/test/
+/apps/manager/current/web/demo/demo/plugins/jquery-1.8.3.min.js
+ ↳ jquery 1.8.3.min has known vulnerabilities: severity: medium; bug: 11290, summary: Selector interpreted as HTML; http://bugs.jquery.com/ticket/11290 http://research.insecurelabs.org/jquery/test/
+/apps/manager/current/web/demo/demo/NF/Naukri Footmarks_files/jquery.js
+ ↳ jquery 1.7.2 has known vulnerabilities: severity: medium; bug: 11290, summary: Selector interpreted as HTML; http://bugs.jquery.com/ticket/11290 http://research.insecurelabs.org/jquery/test/
+/apps/manager/current/web/demo/demo/om/js/jquery-1.js
+ ↳ jquery 1.8.3 has known vulnerabilities: severity: medium; bug: 11290, summary: Selector interpreted as HTML; http://bugs.jquery.com/ticket/11290 http://research.insecurelabs.org/jquery/test/
