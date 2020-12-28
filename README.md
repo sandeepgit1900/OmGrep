@@ -43,7 +43,7 @@ Mounting codebase:
 
 docker run --name codereview -v /tmp:/tmp/codebase -d -p 8091:80 codereview:latest
 
-Replace the “/tmp” in bold with the code repository (to be scanned).
+Replace the “-v:/tmp” with the code repository(to be scanned) path on host machine.
 
 8091 can be replaced with any port which can be opened on host machine.
 
