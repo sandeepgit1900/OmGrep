@@ -3,17 +3,23 @@ OmGrep is based on grepping with a GUI to list down potential SQL Injection, OS 
 Server side request Forgery, Cookie set without http only flag, vulnerable javascript and few other third
 parties using “Retire js” utility and insecure file upload.
 How it finds security issues?
+
 (a) Sql Injection: The most recommended way to write secure sql queries in php is going
 parameterized way. OmGrep will list down all the sql queries not written in parameterized way
 and potentially vulnerable to sql injection attack
+
 (b) It will list all the instance where os system command functions are used with a variable.
+
 (c) It will list all the instance where functions are used with a variable which can lead to server side
 request forgery vulnerability
+
 (d) It will list all the instances where cookies are being set with a chance of not having httponly flag
+
 (e) It’s recommended to have one central service for file upload so that every developer is not
 writing her own set of validation. This service should be properly tested manually. OmGrep will
 list down all the instances where file is being uploaded probably without this secure
 service(developers negligence)
+
 (f) Third Party Vulnerabilities using retire-js utility at backend.
 Important Pointers:
 User can suppress an issue on the result page so that it does not appear again.
