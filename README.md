@@ -1,4 +1,4 @@
-# omgrepGrepping the source code is a classic method to perform security code review.
+# Grepping the source code is a classic method to perform security code review.
 OmGrep is based on grepping with a GUI to list down potential SQL Injection, OS Command Injection,
 Server side request Forgery, Cookie set without http only flag, vulnerable javascript and few other third
 parties using “Retire js” utility and insecure file upload.
